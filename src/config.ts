@@ -99,6 +99,7 @@ export const INDEXABLE_EXTENSIONS: Set<string> = new Set([
   ".md",
   ".mdx",
   ".txt",
+  ".r",
 
   ".gitignore",
   ".dockerfile",

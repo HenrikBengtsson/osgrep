@@ -185,6 +185,17 @@ export const LANGUAGES: LanguageDefinition[] = [
     definitionTypes: ["pair"],
   },
   {
+    id: "r",
+    extensions: [".r"],
+    grammar: {
+      name: "r",
+      url: "https://github.com/r-lib/tree-sitter-r/releases/download/v1.2.0/tree-sitter-r.wasm",
+    },
+    definitionTypes: [
+      "function_definition"
+    ],
+  },
+  {
     id: "markdown",
     extensions: [".md", ".mdx"],
   },
